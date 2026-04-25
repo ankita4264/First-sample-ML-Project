@@ -5,11 +5,14 @@ This notebook walks through a complete machine learning pipeline — from raw da
 
 Dataset I used: 
 -- Source: Chicago Taxi Trips (Google ML Education / BigQuery)
+
 -- Size: 31,694 rows × 18 columns
+
 -- Target variable: FARE (trip fare in USD)
 
+
 Project Structure:
--- The notebook is organized into 8 sections:
+The notebook is organized into 8 sections:
 1] Load the Data — read and preview the raw dataset
 2] Exploratory Data Analysis — distributions, correlations, outlier detection
 3] Data Cleaning — handle missing values and remove invalid trips
@@ -22,16 +25,26 @@ Project Structure:
 Results: Model B explains 95.1% of fare variance, with predictions off by just $1.19 on average.
 
 Requirements:
+
 -- pandas
+
 -- numpy
+
 -- matplotlib
+
 -- seaborn
+
 -- scikit-learn
 
+
 How to Run:
+
 -- Clone or download the repo
+
 -- Open linear_regression.ipynb in VS Code or Jupyter
+
 -- Run all cells top to bottom
+
 
 Key Takeaways:
 Adding trip duration and speed meaningfully reduces prediction error over mileage alone
