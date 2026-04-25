@@ -4,11 +4,9 @@ This is a beginner ML project that predicts Chicago taxi fares using linear regr
 This notebook walks through a complete machine learning pipeline — from raw data to live predictions — using the Chicago Taxi Trips dataset from Google ML Education. Two models are trained and compared to show how adding features improves performance.
 
 Dataset I used: 
--- Source: Chicago Taxi Trips (Google ML Education / BigQuery)
-
--- Size: 31,694 rows × 18 columns
-
--- Target variable: FARE (trip fare in USD)
+ Source: Chicago Taxi Trips (Google ML Education / BigQuery)
+ Size: 31,694 rows × 18 columns
+ Target variable: FARE (trip fare in USD)
 
 
 Project Structure:
@@ -25,25 +23,17 @@ The notebook is organized into 8 sections:
 Results: Model B explains 95.1% of fare variance, with predictions off by just $1.19 on average.
 
 Requirements:
-
--- pandas
-
--- numpy
-
--- matplotlib
-
--- seaborn
-
--- scikit-learn
+ pandas
+ numpy
+ matplotlib
+ seaborn
+ scikit-learn
 
 
 How to Run:
-
--- Clone or download the repo
-
--- Open linear_regression.ipynb in VS Code or Jupyter
-
--- Run all cells top to bottom
+ Clone or download the repo
+ Open linear_regression.ipynb in VS Code or Jupyter
+ Run all cells top to bottom
 
 
 Key Takeaways:
