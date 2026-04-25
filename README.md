@@ -43,7 +43,7 @@ The notebook is organized into 8 sections:
 | R² | 0.9514 | 0.9513 |
  
 Model B predicts fares with an average error of just **$1.19**, explaining **95.1% of fare variance**.
-![Model Comparison]("Result.png")
+![Result]("Result.png")
 
 ---
  
